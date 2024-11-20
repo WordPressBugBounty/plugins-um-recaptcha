@@ -4,9 +4,9 @@ Plugin URI: https://ultimatemember.com/extensions/google-recaptcha/
 Contributors: ultimatemember, champsupertramp, nsinelnikov
 Tags: community, member, membership, user-profile
 Requires at least: 5.5
-Tested up to: 6.5
-Stable tag: 2.3.7
-License: GNU Version 2 or Any Later Version
+Tested up to: 6.7
+Stable tag: 2.3.8
+License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.txt
 Requires UM core at least: 2.7.0
 
@@ -69,6 +69,12 @@ Yes, by adding the Google reCAPTCHA to your Ultimate Member registration form, i
 == Changelog ==
 
 = Important: Please update to Ultimate Member 2.1 before updating the extension =
+
+= 2.3.8: November 19, 2024 =
+
+* Added: `um_recaptcha_api_response` action hook
+* Fixed: "Load textdomain just in time" issue
+* Tweak: Refactored requests to API
 
 = 2.3.7: April 29, 2024 =
 
